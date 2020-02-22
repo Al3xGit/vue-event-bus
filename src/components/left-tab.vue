@@ -1,5 +1,7 @@
 <template>
-  <h2>I am left tab</h2>
+  <div>
+    <h2>Left Tab</h2>
+  </div>
 </template>
 
 <script>
@@ -8,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   h2 {
     color: grey;
   }
